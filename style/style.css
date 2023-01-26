@@ -11,6 +11,7 @@ body {
 }
 h1 {
   font-size: 96px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -100,4 +101,31 @@ p.yogurt-paragraph {
   padding: 0;
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  a.navbar-brand {
+    font-size: 23px;
+  }
+  .navbar-nav {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .homepage-container {
+    text-align: center;
+  }
+
+  .contact-link,
+  .about-link {
+    text-align: center;
+  }
 }
